@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="sand" data-motion="on">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>拾贝 · 李思敏 | 向下扎根，向外连接</title>
+<meta name="description" content="南京大学政府管理学院行政管理专业学生李思敏的个人网站。以一个沙滩拾贝者的视角，拾起学业、公益、支教、科研与组织中的每一段经历。">
+<meta name="author" content="李思敏">
+<meta name="theme-color" content="#F7E9D6">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#beach">跳到拾贝地图</a>
+
+<!-- ============ SVG 图形库 ============ -->
+<svg class="sprite" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-bucket" viewBox="0 0 64 64">
+      <path d="M17 25h30l-3.6 27.2A4 4 0 0 1 39.5 56H24.5a4 4 0 0 1-3.9-3.8Z" fill="currentColor" fill-opacity=".8"/>
+      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M17 25c0-9.4 6.7-14.5 15-14.5S47 15.6 47 25" stroke-width="2.8"/>
+        <path d="M21.5 35.5h21" stroke-width="2.2"/>
+        <path d="M26 20.5a6 6 0 0 1 12 0" stroke-width="2.2"/>
+        <path d="M26 20.5a6 6 0 0 0 6 4.4" stroke-width="2.2"/>
+      </g>
+    </symbol>
+    <symbol id="i-scallop" viewBox="0 0 64 64">
+      <path d="M32 56C20 52 12 42 11 26c4 4.4 8.4 2.6 10.6-2.6 3 6 7 7.4 10.4 5.2 3.4-2.2 7.4 .8 10.4 5.2 2.2 5.2 6.6 7 10.6 2.6-1 16-9 26-21 30Z" fill="currentColor" fill-opacity=".82"/>
+      <path d="M32 56 14 30M32 56 24 27M32 56 40 27M32 56 50 30" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="i-starfish" viewBox="0 0 64 64">
+      <path d="M32.0 6.0C34.3 6.0 34.5 20.6 38.8 23.7C43.0 26.8 57.0 22.5 57.7 24.7C58.4 26.8 44.6 31.5 42.9 36.6C41.3 41.6 49.7 53.5 47.9 54.8C46.0 56.2 37.3 44.5 32.0 44.5C26.7 44.5 18.0 56.2 16.1 54.8C14.3 53.5 22.7 41.6 21.1 36.6C19.4 31.5 5.6 26.8 6.3 24.7C7.0 22.5 21.0 26.8 25.2 23.7C29.5 20.6 29.7 6.0 32.0 6.0Z" fill="currentColor" fill-opacity=".8"/>
+      <path d="M32 33 32 6M32 33 57.7 24.7M32 33 47.9 54.8M32 33 16.1 54.8M32 33 6.3 24.7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" opacity=".55"/>
+    </symbol>
+    <symbol id="i-conch" viewBox="0 0 64 64">
+      <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M38 55C23 55 12 46 12 34.5 12 21.5 23 11.5 35.5 11.5 46.5 11.5 55 19.5 55 28c0 7.5-6.5 13-13.5 13-6.5 0-11-4.5-11-9.5 0-4.5 3.5-8 8-8"/>
+        <path d="M15 43c-4.5 4-7 9.5-7 15 6.5-4.5 13-6.5 20-6.5"/>
+      </g>
+    </symbol>
+    <symbol id="i-seaglass" viewBox="0 0 64 64">
+      <path d="M13.5 42C10 30 16.5 15.5 28.5 11.5 40.5 7.5 54 13 57.5 24.5 61 36 52 50 39 53.5 28 56.5 17.5 51 13.5 42Z" fill="currentColor" fill-opacity=".72"/>
+      <g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" opacity=".55">
+        <path d="M23 23c4.5-4.5 11-6 16.5-4.8"/>
+        <path d="M20 41c3.5 4 9 5.5 14 4.8"/>
+      </g>
+    </symbol>
+    <symbol id="i-coral" viewBox="0 0 64 64">
+      <path d="M32 57V38M32 45c-6.5 0-11-4.5-13-10.5M32 39c6.5 0 11-4.5 13-10.5M32 32c-4.5 0-8-3.2-9-8.2M32 26c4.5 0 8-3.2 9-8.2M32 20v-7" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <g fill="currentColor"><circle cx="19" cy="34.5" r="2.4"/><circle cx="45" cy="28.5" r="2.4"/><circle cx="23" cy="23.8" r="2.4"/><circle cx="41" cy="17.8" r="2.4"/><circle cx="32" cy="13" r="2.4"/></g>
+    </symbol>
+    <symbol id="i-chest" viewBox="0 0 64 64">
+      <path d="M12 29h40v23a4 4 0 0 1-4 4H16a4 4 0 0 1-4-4Z" fill="currentColor" fill-opacity=".8"/>
+      <path d="M12 29c0-9.4 9-14.5 20-14.5S52 19.6 52 29Z" fill="currentColor" fill-opacity=".55"/>
+      <g fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round">
+        <path d="M12 29h40"/>
+      </g>
+      <rect x="27.5" y="25" width="9" height="11" rx="2.5" fill="currentColor"/>
+      <path d="M32 30.5v3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    </symbol>
+  </defs>
+</svg>
+
+<!-- ============ 顶栏 ============ -->
+<header class="topbar" id="topbar">
+  <a class="topbar__mark" href="#top">
+    <span class="topbar__zh">拾贝</span>
+    <span class="topbar__en">S. Li</span>
+  </a>
+  <nav class="topbar__nav" aria-label="主导航">
+    <a href="#beach">拾贝地图</a>
+    <a href="#tide">潮线</a>
+    <a href="#gallery">陈列室</a>
+  </nav>
+  <div class="topbar__tools">
+    <button class="tool-btn" id="themeCycle" type="button" aria-label="切换色调" title="切换色调">
+      <span class="tool-btn__dot"></span>
+    </button>
+    <button class="tool-btn" id="tweaksToggle" type="button" aria-label="打开调节面板" aria-expanded="false" title="调节面板">Tweaks</button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" aria-labelledby="heroName">
+    <div class="hero__sky">
+      <span class="hero__sun" aria-hidden="true"></span>
+      <span class="hero__glow" aria-hidden="true"></span>
+      <span class="hero__cloud hero__cloud--a" aria-hidden="true"></span>
+      <span class="hero__cloud hero__cloud--b" aria-hidden="true"></span>
+      <span class="hero__cloud hero__cloud--c" aria-hidden="true"></span>
+    </div>
+
+    <div class="hero__sea" aria-hidden="true">
+      <span class="wave wave--back"></span>
+      <span class="wave wave--mid"></span>
+      <span class="wave wave--front"></span>
+    </div>
+    <span class="hero__shore" aria-hidden="true"></span>
+    <span class="hero__sand" aria-hidden="true"></span>
+
+    <div class="hero__content">
+      <p class="hero__eyebrow">南京大学 · 政府管理学院 · 行政管理 2025 级</p>
+      <h1 class="hero__name" id="heroName">
+        <span class="hero__name-zh">李思敏</span>
+        <span class="hero__name-en">S. Li — <em>Shell&nbsp;Collector</em></span>
+      </h1>
+      <p class="hero__quote">
+        <span class="hero__quote-mark" aria-hidden="true">“</span>
+        无穷的远方，无数的人们，都和我有关。
+        <cite class="hero__cite">—— 鲁迅</cite>
+      </p>
+      <p class="hero__tagline">向下扎根，向外连接。</p>
+      <p class="hero__intro">
+        我在沙滩上拾贝。潮水退去后留下的每一枚贝壳，
+        都是一段我走过的路——<br>
+        学业、阅读、志愿、支教、科研，还有那些把人聚在一起的事。
+      </p>
+      <a class="hero__cue" href="#beach">
+        <span class="hero__cue-text">潮水退了，往前走走</span>
+        <span class="hero__cue-line" aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div class="hero__shell hero__shell--1" aria-hidden="true"><svg><use href="#i-scallop"/></svg></div>
+    <div class="hero__shell hero__shell--2" aria-hidden="true"><svg><use href="#i-starfish"/></svg></div>
+    <div class="hero__shell hero__shell--3" aria-hidden="true"><svg><use href="#i-conch"/></svg></div>
+  </section>
+
+  <!-- ============ 拾贝地图 ============ -->
+  <section class="beach" id="beach" aria-labelledby="beachTitle">
+    <span class="beach__waterline" aria-hidden="true"></span>
+    <div class="beach__inner">
+      <header class="section-head">
+        <p class="section-head__index"><span>01</span> The Tide Line</p>
+        <h2 class="section-head__title" id="beachTitle">退潮了，沙滩上留下七样东西</h2>
+        <p class="section-head__lead">
+          它们不是奖杯，也不是履历表上的行。它们是我在大学里真实做过的事留下的壳。
+          <strong>弯下腰，拾起任意一件。</strong>
+        </p>
+      </header>
+
+      <div class="beach__stage" id="beachStage">
+        <span class="beach__ripple" id="ripple" aria-hidden="true"></span>
+
+        <button class="find find--about" type="button" data-panel="about">
+          <span class="find__obj"><svg viewBox="0 0 64 64"><use href="#i-bucket"/></svg></span>
+          <span class="find__label"><b>拾贝的人</b><i>The Collector</i></span>
+        </button>
+
+        <button class="find find--study" type="button" data-panel="study">
+          <span class="find__obj"><svg viewBox="0 0 64 64"><use href="#i-scallop"/></svg></span>
+          <span class="find__label"><b>扇贝 · 学业与阅读</b><i>Roots &amp; Reading</i></span>
+        </button>
+
+        <button class="find find--volunteer" type="button" data-panel="volunteer">
+          <span class="find__obj"><svg viewBox="0 0 64 64"><use href="#i-starfish"/></svg></span>
+          <span class="find__label"><b>海星 · 公益与志愿</b><i>Being With People</i></span>
+        </button>
+
+        <button class="find find--practice" type="button" data-panel="practice">
+          <span class="find__obj"><svg viewBox="0 0 64 64"><use href="#i-conch"/></svg></span>
+          <span class="find__label"><b>海螺 · 支教与实践</b><i>Voices of Summer</i></span>
+        </button>
+
+        <button class="find find--research" type="button" data-panel="research">
+          <span class="find__obj"><svg viewBox="0 0 64 64"><use href="#i-seaglass"/></svg></span>
+          <span class="find__label"><b>海玻璃 · 科研与探索</b><i>Research</i></span>
+        </button>
+
+        <button class="find find--org" type="button" data-panel="org">
+          <span class="find__obj"><svg viewBox="0 0 64 64"><use href="#i-coral"/></svg></span>
+          <span class="find__label"><b>珊瑚 · 组织与协作</b><i>Building Together</i></span>
+        </button>
+
+        <button class="find find--honors" type="button" data-panel="honors">
+          <span class="find__obj"><svg viewBox="0 0 64 64"><use href="#i-chest"/></svg></span>
+          <span class="find__label"><b>宝箱 · 荣誉陈列室</b><i>What Remains</i></span>
+        </button>
+      </div>
+
+      <nav class="beach__index" aria-label="拾贝索引">
+        <button type="button" data-panel="about"><span class="bi__dot"></span>拾贝的人</button>
+        <button type="button" data-panel="study"><span class="bi__dot"></span>学业与阅读</button>
+        <button type="button" data-panel="volunteer"><span class="bi__dot"></span>公益与志愿</button>
+        <button type="button" data-panel="practice"><span class="bi__dot"></span>支教与实践</button>
+        <button type="button" data-panel="research"><span class="bi__dot"></span>科研与探索</button>
+        <button type="button" data-panel="org"><span class="bi__dot"></span>组织与协作</button>
+        <button type="button" data-panel="honors"><span class="bi__dot"></span>荣誉陈列室</button>
+      </nav>
+    </div>
+  </section>
+
+  <!-- ============ 潮线数据 ============ -->
+  <section class="tide" id="tide" aria-labelledby="tideTitle">
+    <div class="tide__inner">
+      <h2 class="tide__title" id="tideTitle">潮水留下的刻度</h2>
+      <ul class="tide__list">
+        <li><button type="button" data-panel="volunteer"><b>110<em>h</em></b><span>志愿服务时长</span></button></li>
+        <li><button type="button" data-panel="study"><b>4<em>/</em>32</b><span>专业排名 · 大一</span></button></li>
+        <li><button type="button" data-panel="study"><b>4.54</b><span>平均学分绩点</span></button></li>
+        <li><button type="button" data-panel="research"><b>650<em>+</em></b><span>政策文件梳理</span></button></li>
+        <li><button type="button" data-panel="practice"><b>2<em>万+</em></b><span>支教推文总字数</span></button></li>
+        <li><button type="button" data-panel="practice"><b>3<em>w+</em></b><span>线上传播量</span></button></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ 陈列室 ============ -->
+  <section class="gallery" id="gallery" aria-labelledby="galleryTitle">
+    <div class="gallery__inner">
+      <header class="section-head section-head--center">
+        <p class="section-head__index"><span>02</span> The Cabinet</p>
+        <h2 class="section-head__title" id="galleryTitle">陈列室</h2>
+        <p class="section-head__lead">
+          证书、报道、笔记与现场照片。点开任意一张，可以看大图。
+        </p>
+      </header>
+
+      <div class="gallery__filters" role="group" aria-label="按类别筛选">
+        <button type="button" data-filter="all" class="is-active">全部</button>
+        <button type="button" data-filter="cert">荣誉证书</button>
+        <button type="button" data-filter="field">实践现场</button>
+        <button type="button" data-filter="note">调研笔记</button>
+        <button type="button" data-filter="post">推文与报道</button>
+      </div>
+
+      <div class="gallery__grid" id="galleryGrid"></div>
+      <p class="gallery__empty" id="galleryEmpty" hidden>这个类别下暂时还没有照片。</p>
+    </div>
+  </section>
+</main>
+
+<!-- ============ 页脚 ============ -->
+<footer class="footer">
+  <div class="footer__inner">
+    <p class="footer__line">
+      <span class="footer__wave" aria-hidden="true"></span>
+      潮水会再来，贝壳会再被捡起。
+    </p>
+    <p class="footer__sub">
+      向下扎根，向外连接 —— 李思敏，南京大学政府管理学院行政管理专业
+    </p>
+    <div class="footer__contact">
+      <!-- ↓↓↓ 直接点这两处就能改文字，刷新后仍然保留 ↓↓↓ -->
+      <p><span>邮箱</span><span data-contact>你的邮箱地址</span></p>
+      <p><span>微信</span><span data-contact>你的微信号</span></p>
+    </div>
+    <p class="footer__meta">
+      <button type="button" class="link-btn" id="backToTop">回到潮水之上 ↑</button>
+      <span>© 2026 李思敏 · 本页所有素材均为本人真实经历</span>
+    </p>
+  </div>
+</footer>
+
+<!-- ============ 贝匣（抽屉） ============ -->
+<div class="shellbox" id="shellbox" hidden>
+  <div class="shellbox__scrim" data-close></div>
+  <aside class="shellbox__panel" role="dialog" aria-modal="true" aria-labelledby="shellboxTitle">
+    <header class="shellbox__bar">
+      <span class="shellbox__grip" aria-hidden="true"></span>
+      <p class="shellbox__crumb" id="shellboxCrumb">拾贝地图</p>
+      <button class="shellbox__close" type="button" data-close aria-label="收起">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+    </header>
+    <div class="shellbox__body" id="shellboxBody">
+
+      <!-- 01 关于 -->
+      <article class="panel" data-panel="about">
+        <header class="panel__head">
+          <span class="panel__icon panel__icon--about"><svg viewBox="0 0 64 64"><use href="#i-bucket"/></svg></span>
+          <div>
+            <p class="panel__index">01 / 07</p>
+            <h3 class="panel__title" id="shellboxTitle">拾贝的人</h3>
+            <p class="panel__en">The Collector</p>
+          </div>
+        </header>
+        <p class="panel__lead">
+          我叫李思敏，南京大学政府管理学院行政管理专业 2025 级。
+          「无穷的远方，无数的人们，都和我有关」——这句鲁迅的话，是我对自己大学生活的全部概括：
+          <b>向下扎根，向外连接。</b>
+        </p>
+        <p class="panel__text">
+          我喜欢把一件事做成一件完整的事：把 650 多份政策文件梳理成一套编码框架，
+          把一支支教队的公众号从零运营到被人看见，把一次小组会开成能落地的分工。
+          向下扎根，是把知识学扎实、把方法练熟；向外连接，是把这些东西用在具体的人和具体的事上。
+        </p>
+        <p class="panel__text">
+          现在，我以队长身份准备 2027 年大学生自强之星挑战赛，选题方向锁定养老服务，
+          已经组好队，正在联系指导老师。<strong>沙滩还很宽，路还很长。</strong>
+        </p>
+        <dl class="figures">
+          <div><dt>4.54</dt><dd>平均学分绩点</dd></div>
+          <div><dt>4 / 32</dt><dd>专业排名</dd></div>
+          <div><dt>110 h+</dt><dd>志愿服务时长</dd></div>
+          <div><dt>7</dt><dd>条主要经历线</dd></div>
+        </dl>
+        <h4 class="panel__sub">关键词</h4>
+        <ul class="chips">
+          <li>团队统筹</li><li>政策研究</li><li>深度访谈</li><li>内容运营</li>
+          <li>平面设计</li><li>活动策划</li><li>手语普及</li><li>校园行政</li>
+        </ul>
+      </article>
+
+      <!-- 02 学业 -->
+      <article class="panel" data-panel="study" hidden>
+        <header class="panel__head">
+          <span class="panel__icon panel__icon--study"><svg viewBox="0 0 64 64"><use href="#i-scallop"/></svg></span>
+          <div>
+            <p class="panel__index">02 / 07</p>
+            <h3 class="panel__title">扇贝 · 学业与阅读</h3>
+            <p class="panel__en">Roots &amp; Reading</p>
+          </div>
+        </header>
+        <p class="panel__lead">
+          绩点与阅读是最早交给我两把工具：一把帮我把地基打牢，
+          一把让我在完全陌生的领域里也能很快站进去。
+        </p>
+        <dl class="figures">
+          <div><dt>4.54</dt><dd>学位课程平均绩点</dd></div>
+          <div><dt>4 / 32</dt><dd>专业排名 · 前 12.5%</dd></div>
+          <div><dt>10 / 63</dt><dd>年级排名</dd></div>
+          <div><dt>624</dt><dd>大学英语四级</dd></div>
+        </dl>
+        <h4 class="panel__sub">我在做的事</h4>
+        <ul class="panel__list">
+          <li><b>大一学年</b>平均学分绩点 4.54（全部课程平均 4.52），总学分 52，专业排名 4/32、位列年级前 12.5%，年级排名 10/63。</li>
+          <li><b>BEET 全国大学生英语阅读比赛</b>，初赛与决赛<b>均获全国一等奖</b>。</li>
+          <li><b>大学英语四级 624 分</b>。</li>
+          <li>印象最深的几门课：政府管理学院导论、社会保障概论、行政管理学、区域国别学概论、国家治理实践前沿、公共经济学——它们后来都长进了我做的每一份调研里。</li>
+        </ul>
+        <div class="shots">
+          <figure class="shot" data-full="assets/img/cert/transcript.jpg" data-cap="南京大学本科生成绩单 · 2025–2026 学年">
+            <img src="assets/img/thumb/cert/transcript.jpg" alt="南京大学本科生成绩单" loading="lazy">
+            <figcaption>成绩单</figcaption>
+          </figure>
+          <figure class="shot" data-full="assets/img/cert/beet-final.jpg" data-cap="BEET 阅读比赛 · 决赛全国一等奖">
+            <img src="assets/img/thumb/cert/beet-final.jpg" alt="BEET 决赛一等奖证书" loading="lazy">
+            <figcaption>BEET 决赛</figcaption>
+          </figure>
+          <figure class="shot" data-full="assets/img/cert/beet-prelim.jpg" data-cap="BEET 阅读比赛 · 初赛全国一等奖">
+            <img src="assets/img/thumb/cert/beet-prelim.jpg" alt="BEET 初赛一等奖证书" loading="lazy">
+            <figcaption>BEET 初赛</figcaption>
+          </figure>
+          <figure class="shot" data-full="assets/img/cert/cet4.jpg" data-cap="大学英语四级成绩单 · 624 分">
+            <img src="assets/img/thumb/cert/cet4.jpg" alt="英语四级成绩单" loading="lazy">
+            <figcaption>四级 624</figcaption>
+          </figure>
+        </div>
+      </article>
+
+      <!-- 03 志愿 -->
+      <article class="panel" data-panel="volunteer" hidden>
+        <header class="panel__head">
+          <span class="panel__icon panel__icon--volunteer"><svg viewBox="0 0 64 64"><use href="#i-starfish"/></svg></span>
+          <div>
+            <p class="panel__index">03 / 07</p>
+            <h3 class="panel__title">海星 · 公益与志愿</h3>
+            <p class="panel__en">Being With People</p>
+          </div>
+        </header>
+        <p class="panel__lead">
+          110 小时并不长，但它让我确认了一件事：
+          我愿意一直待在人群里，而不是站在人群外面。
+        </p>
+        <dl class="figures">
+          <div><dt>110 h+</dt><dd>累计志愿时长</dd></div>
+          <div><dt>6</dt><dd>类志愿行动</dd></div>
+          <div><dt>3</dt><dd>次以身作则</dd></div>
+          <div><dt>1</dt><dd>场涉外接待</dd></div>
+        </dl>
+        <h4 class="panel__sub">我在做的事</h4>
+        <ul class="panel__list">
+          <li><b>手语社教学部成员</b>：面向同学普及聋哑人群体的真实处境与基本手语知识，后任宣传部副部长，统筹社团宣传。</li>
+          <li><b>南京市「手话金陵」系列志愿活动</b>：无障碍阅读、重阳慰老、感恩节儿童手工陪伴。</li>
+          <li><b>无偿献血</b>获荣誉证书，并<b>主动捐献白细胞样本</b>获荣誉证书。</li>
+          <li><b>江苏省大学生防艾知识竞赛</b>获奖证书。</li>
+          <li><b>2026 第十四届环太湖国际公路自行车赛</b>随队志愿者，接待外国运动员。</li>
+        </ul>
+        <div class="shots">
+          <figure class="shot" data-full="assets/img/field/shouhua-jinling.jpg" data-cap="「手话金陵」志愿活动现场">
+            <img src="assets/img/thumb/field/shouhua-jinling.jpg" alt="手话金陵志愿活动现场" loading="lazy">
+            <figcaption>手话金陵</figcaption>
+          </figure>
+          <figure class="shot" data-full="assets/img/field/inclusive-photo.jpg" data-cap="无碍共融主题活动">
+            <img src="assets/img/thumb/field/inclusive-photo.jpg" alt="无碍共融主题活动照片" loading="lazy">
+            <figcaption>无碍共融</figcaption>
+          </figure>
+          <figure class="shot" data-full="assets/img/field/taihu.jpg" data-cap="环太湖国际公路自行车赛 · 志愿服务">
+            <img src="assets/img/thumb/field/taihu.jpg" alt="环太湖自行车赛志愿服务" loading="lazy">
+            <figcaption>环太湖</figcaption>
+          </figure>
+          <figure class="shot" data-full="assets/img/field/volunteer-hours.jpg" data-cap="志愿服务时长累计超 110 小时">
+            <img src="assets/img/thumb/field/volunteer-hours.jpg" alt="志愿服务时长证明" loading="lazy">
+            <figcaption>110h+</figcaption>
+          </figure>
+          <figure class="shot" data-full="assets/img/cert/blood-donation.jpg" data-cap="无偿献血荣誉证书">
+            <img src="assets/img/thumb/cert/blood-donation.jpg" alt="无偿献血荣誉证书" loading="lazy">
+            <figcaption>无偿献血</figcaption>
+          </figure>
+          <figure class="shot" data-full="assets/img/cert/stem-cell-honor.jpg" data-cap="捐献白细胞样本荣誉证书">
+            <img src="assets/img/thumb/cert/stem-cell-honor.jpg" alt="捐献白细胞样本荣誉证书" loading="lazy">
+            <figcaption>捐献白细胞</figcaption>
+          </figure>
+          <figure class="shot" data-full="assets/img/cert/aids-competition.jpg" data-cap="江苏省大学生防艾知识竞赛证书">
+            <img src="assets/img/thumb/cert/aids-competition.jpg" alt="防艾知识竞赛证书" loading="lazy">
+            <figcaption>防艾竞赛</figcaption>
+          </figure>
+        </div>
+      </article>
+
+      <!-- 04 支教 -->
+      <article class="panel" data-panel="practice" hidden>
+        <header class="panel__head">
+          <span class="panel__icon panel__icon--practice"><svg viewBox="0 0 64 64"><use href="#i-conch"/></svg></span>
+          <div>
+            <p class="panel__index">04 / 07</p>
+            <h3 class="panel__title">海螺 · 支教与实践</h3>
+            <p class="panel__en">Voices of Summer</p>
+          </div>
+        </header>
+        <p class="panel__lead">
+          那年暑假我负责一支支教队的「嗓子」——公众号、推文、拉赞助。
+          我后来才明白，让远方被看见，本身就是一种连接。
+        </p>
+        <dl class="figures">
+          <div><dt>10</dt><dd>篇推文</dd></div>
+          <div><dt>2 万+</dt><dd>推文总字数</dd></div>
+          <div><dt>3 w+</dt><dd>线上传播量</dd></div>
+          <div><dt>1.5 w+</dt><dd>视频播放量</dd></div>
+        </dl>
+        <h4 class="panel__sub">我在做的事</h4>
+        <ul class="panel__list">
+          <li><b>支教团宣传组负责人</b>：统筹团队宣传工作，运行公众号，写推文、做美编、剪视频。</li>
+          <li>产出<b>推文 10 篇、累计超 20,000 字</b>；线上传播量 3w+，视频播放量超 1.5w。</li>
+          <li>成功为团队<b>拉取到益达的赞助</b>。</li>
+          <li>推文与成果在「南青实践」「NJU 南悦之约」等官方平台展示。</li>
+          <li>团队获<b>第九届西门子爱绿教育计划全国铜奖</b>、<b>首届全国大学生新时代文明实践风采展示大赛二等奖</b>；其中项目书撰写内容由我负责，我的课程照片作为团队优秀案例展示。</li>
+          <li>支教期间走进学生家中<b>实地家访</b>；返高中进行<b>招生宣讲</b>。</li>
+        </ul>
+        <div class="shots">
+          <figure class="shot" data-full="assets/img/field/on-the-road.jpg" data-cap="与团队伙伴走在去家访的路上">
+            <img src="assets/img/thumb/field/on-the-road.jpg" alt="与团队伙伴走在去家访的路上" loading="lazy">
+            <figcaption>去家访的路上</figcaption>
+          </figure>
+          <figure class="shot" data-full="assets/img/field/home-visit.jpg" data-cap="支教期间实地走进学生家中家访">
+            <img src="assets/img/thumb/field/home-visit.jpg" alt="实地走进学生家中家访" loading="lazy">
+            <figcaption>实地家访</figcaption>
+          </figure>
+          <figure class="shot" data-full="assets/img/field/representative-photo.jpg" data-cap="我的照片作为团队优秀案例展示">
+            <img src="assets/img/thumb/field/representative-photo.jpg" alt="课程照片作为团队优秀案例展示" loading="lazy">
+            <figcaption>优秀案例</figcaption>
+          </figure>
+          <figure class="shot" data-full="assets/img/post/nanjing-youth.jpg" data-cap="推文投稿「南青实践」平台">
+            <img src="assets/img/thumb/post/nanjing-youth.jpg" alt="推文投稿南青实践平台" loading="lazy">
+            <figcaption>南青实践</figcaption>
+          </figure>
+          <figure class="shot" data-full="assets/img/cert/green-plan-bronze.jpg" data-cap="第九届西门子爱绿教育计划 · 全国铜奖">
+            <img src="assets/img/thumb/cert/green-plan-bronze.jpg" alt="西门子爱绿教育计划全国铜奖" loading="lazy">
+            <figcaption>西门子 · 全国铜奖</figcaption>
+          </figure>
+          <figure class="shot" data-full="assets/img/cert/practice-fair-second.jpg" data-cap="首届全国大学生新时代文明实践风采展示大赛 · 二等奖">
+            <img src="assets/img/thumb/cert/practice-fair-second.jpg" alt="新时代文明实践风采展示大赛二等奖" loading="lazy">
+            <figcaption>风采大赛二等奖</figcaption>
+          </figure>
+        </div>
+      </article>
+
+      <!-- 05 科研 -->
+      <article class="panel" data-panel="research" hidden>
+        <header class="panel__head">
+          <span class="panel__icon panel__icon--research"><svg viewBox="0 0 64 64"><use href="#i-seaglass"/></svg></span>
+          <div>
+            <p class="panel__index">05 / 07</p>
+            <h3 class="panel__title">海玻璃 · 科研与探索</h3>
+            <p class="panel__en">Research</p>
+          </div>
+        </header>
+        <p class="panel__lead">
+          政策文本、访谈记录、机构报告——我在慢慢学会把散落的事实，
+          编成一套能被检验、能被反驳的框架。
+        </p>
+        <dl class="figures">
+          <div><dt>650+</dt><dd>政策文件梳理</dd></div>
+          <div><dt>2</dt><dd>项任组长项目</dd></div>
+          <div><dt>3</dt><dd>级扎根理论编码</dd></div>
+          <div><dt>2</dt><dd>处机构参访</dd></div>
+        </dl>
+        <h4 class="panel__sub">我在做的事</h4>
+        <ul class="panel__list">
+          <li><b>「AI 在政务领域的应用」早期科研 · 组长</b>：统筹整体进展与组会开展，协调老师与组员之间的问题；系统梳理 650+ 份国家级、省级、地市级 AI 政务相关政策文件，运用扎根理论进行三级编码，最终产出科研成果。</li>
+          <li><b>「养老服务供给」调研 · 组长</b>：提出选题并主动对接养老机构，撰写调研方案，统筹组内分工，带领团队实地访谈与调研，结合国内外文献，最终提出可行性方案框架。</li>
+          <li>参访<b>南京市儿童康复研究中心</b>与<b>南京—华为创新研究室</b>，撰写调研报告。</li>
+          <li>正在以队长身份推进<b>2027 年大学生自强之星挑战赛</b>，选题方向锁定养老服务，已完成组队并联系指导老师。</li>
+        </ul>
+        <div class="shots">
+          <figure class="shot" data-full="assets/img/note/policy-table.jpg" data-cap="AI 政务相关政策文件汇总表">
+            <img src="assets/img/thumb/note/policy-table.jpg" alt="政务政策汇总表" loading="lazy">
+            <figcaption>政策汇总表</figcaption>
+          </figure>
+          <figure class="shot" data-full="assets/img/note/encoding.jpg" data-cap="扎根理论三级编码">
+            <img src="assets/img/thumb/note/encoding.jpg" alt="扎根理论三级编码" loading="lazy">
+            <figcaption>三级编码</figcaption>
+          </figure>
+          <figure class="shot" data-full="assets/img/note/elderly-interview.jpg" data-cap="养老服务供给 · 实地访谈记录">
+            <img src="assets/img/thumb/note/elderly-interview.jpg" alt="养老访谈记录" loading="lazy">
+            <figcaption>养老访谈</figcaption>
+          </figure>
+          <figure class="shot" data-full="assets/img/note/elderly-framework.jpg" data-cap="养老问题分析框架">
+            <img src="assets/img/thumb/note/elderly-framework.jpg" alt="养老问题分析框架" loading="lazy">
+            <figcaption>分析框架</figcaption>
+          </figure>
+          <figure class="shot" data-full="assets/img/note/elderly-literature.jpg" data-cap="养老服务国内外文献梳理">
+            <img src="assets/img/thumb/note/elderly-literature.jpg" alt="养老外文文献" loading="lazy">
+            <figcaption>文献梳理</figcaption>
+          </figure>
+          <figure class="shot" data-full="assets/img/note/wordcloud.jpg" data-cap="访谈文本词云对比">
+            <img src="assets/img/thumb/note/wordcloud.jpg" alt="词云对比" loading="lazy">
+            <figcaption>词云对比</figcaption>
+          </figure>
+        </div>
+      </article>
+
+      <!-- 06 组织 -->
+      <article class="panel" data-panel="org" hidden>
+        <header class="panel__head">
+          <span class="panel__icon panel__icon--org"><svg viewBox="0 0 64 64"><use href="#i-coral"/></svg></span>
+          <div>
+            <p class="panel__index">06 / 07</p>
+            <h3 class="panel__title">珊瑚 · 组织与协作</h3>
+            <p class="panel__en">Building Together</p>
+          </div>
+        </header>
+        <p class="panel__lead">
+          组织工作教会我一件事：把一群人的力气对齐，
+          比自己一个人拼命更省力，也更走得远。
+        </p>
+        <h4 class="panel__sub">职务</h4>
+        <ul class="panel__list">
+          <li><b>政府管理学院学生会综合联络部部长</b>。</li>
+          <li><b>手语社宣传部副部长</b>，曾任教学部成员。</li>
+          <li><b>班长</b>，与其他班委共同管理班级事务。</li>
+          <li><b>南京大学学生资助中心资助大使 · 湖北组组长</b>：通过电话为新生提供资助政策支持，帮助家庭提前了解相关政策；团队稿件被全国学生资助管理中心转发；获「2026 年优秀学生资助宣传大使」并参与分享交流。</li>
+          <li><b>学生助理</b>：协助老师完成材料审核、文件归档、报销审批等日常行政工作。</li>
+          <li><b>院学生会团建统筹</b>：负责物资确认与采买，独自与商家协商并争取到优惠。</li>
+        </ul>
+        <h4 class="panel__sub">协同与表达</h4>
+        <ul class="panel__list">
+          <li><b>行知精神宣讲团</b>成员，参与「大先生展」宣讲。</li>
+          <li><b>南大台港澳交流协会 × 南大国际</b>联合中秋活动<b>主持人</b>。</li>
+          <li>本年级<b>第一批入党积极分子</b>并顺利结业。</li>
+          <li>参加<b>「一二·九」合唱比赛</b>，与团队共同合作取得特等奖。</li>
+        </ul>
+        <div class="shots">
+          <figure class="shot" data-full="assets/img/cert/aid-ambassador.jpg" data-cap="2026 年优秀学生资助宣传大使">
+            <img src="assets/img/thumb/cert/aid-ambassador.jpg" alt="优秀学生资助宣传大使" loading="lazy">
+            <figcaption>资助宣传大使</figcaption>
+          </figure>
+          <figure class="shot" data-full="assets/img/field/aid-published.jpg" data-cap="资助宣传稿件被全国学生资助管理中心刊登">
+            <img src="assets/img/thumb/field/aid-published.jpg" alt="资助宣传被全国资助中心刊登" loading="lazy">
+            <figcaption>被全国刊登</figcaption>
+          </figure>
+          <figure class="shot" data-full="assets/img/cert/choir-first-prize.jpg" data-cap="「一二·九」合唱比赛 · 特等奖">
+            <img src="assets/img/thumb/cert/choir-first-prize.jpg" alt="一二九合唱比赛特等奖" loading="lazy">
+            <figcaption>一二·九 特等奖</figcaption>
+          </figure>
+          <figure class="shot" data-full="assets/img/field/mid-autumn-host.jpg" data-cap="中秋活动主持人">
+            <img src="assets/img/thumb/field/mid-autumn-host.jpg" alt="中秋活动主持人" loading="lazy">
+            <figcaption>中秋主持</figcaption>
+          </figure>
+          <figure class="shot" data-full="assets/img/cert/xingzhi-lecture.jpg" data-cap="行知精神宣讲团 · 大先生展宣讲">
+            <img src="assets/img/thumb/cert/xingzhi-lecture.jpg" alt="行知宣讲团" loading="lazy">
+            <figcaption>大先生展宣讲</figcaption>
+          </figure>
+          <figure class="shot" data-full="assets/img/cert/party-activist.jpg" data-cap="入党积极分子结业证明">
+            <img src="assets/img/thumb/cert/party-activist.jpg" alt="入党积极分子证明" loading="lazy">
+            <figcaption>入党积极分子</figcaption>
+          </figure>
+        </div>
+      </article>
+
+      <!-- 07 荣誉 -->
+      <article class="panel" data-panel="honors" hidden>
+        <header class="panel__head">
+          <span class="panel__icon panel__icon--honors"><svg viewBox="0 0 64 64"><use href="#i-chest"/></svg></span>
+          <div>
+            <p class="panel__index">07 / 07</p>
+            <h3 class="panel__title">宝箱 · 荣誉陈列室</h3>
+            <p class="panel__en">What Remains</p>
+          </div>
+        </header>
+        <p class="panel__lead">
+          潮水退去后，沙滩上留下的这些，是我走过路的年轮。
+        </p>
+        <ul class="honors">
+          <li><b>最佳应用价值奖（含 1 万元奖金）</b><span>2026 江苏省 AI+科学与工程创新实践黑客松 · 高校组决赛</span></li>
+          <li><b>全国一等奖 ×2</b><span>BEET 全国大学生英语阅读比赛 · 初赛与决赛</span></li>
+          <li><b>全国铜奖</b><span>第九届西门子爱绿教育计划 · 中国大学生社会实践项目</span></li>
+          <li><b>二等奖</b><span>首届全国大学生新时代文明实践风采展示大赛</span></li>
+          <li><b>特等奖</b><span>「一二·九」合唱比赛（团队）</span></li>
+          <li><b>2026 年优秀学生资助宣传大使</b><span>南京大学学生资助中心 · 湖北组组长</span></li>
+          <li><b>中国石油奖学金</b><span>感谢信</span></li>
+          <li><b>特等奖</b><span>「一二·九」合唱比赛</span></li>
+          <li><b>普通话二级乙等</b><span>国家语言文字工作委员会</span></li>
+          <li><b>荣誉证书 ×3</b><span>无偿献血 · 捐献白细胞样本 · 江苏省大学生防艾知识竞赛</span></li>
+          <li><b>随队志愿者</b><span>2026 第十四届环太湖国际公路自行车赛</span></li>
+          <li><b>社会实践证明</b><span>支教实践 · 返回高中招生宣讲</span></li>
+        </ul>
+        <p class="panel__note">
+          全部 53 张证书、报道、笔记与现场照片都在下方
+          <a href="#gallery" data-close-and-scroll>陈列室</a> 里，按类别分好了。
+        </p>
+        <div class="shots">
+          <figure class="shot" data-full="assets/img/cert/hackathon.jpg" data-cap="2026 江苏省 AI+科学与工程创新实践黑客松 · 最佳应用价值奖">
+            <img src="assets/img/thumb/cert/hackathon.jpg" alt="黑客松最佳应用价值奖" loading="lazy">
+            <figcaption>黑客松</figcaption>
+          </figure>
+          <figure class="shot" data-full="assets/img/cert/petrochina-thanks.jpg" data-cap="中国石油奖学金 · 感谢信">
+            <img src="assets/img/thumb/cert/petrochina-thanks.jpg" alt="中国石油奖学金感谢信" loading="lazy">
+            <figcaption>中国石油奖学金</figcaption>
+          </figure>
+        </div>
+      </article>
+
+    </div>
+  </aside>
+</div>
+
+<!-- ============ 灯箱 ============ -->
+<div class="lightbox" id="lightbox" hidden>
+  <div class="lightbox__scrim" data-lb-close></div>
+  <figure class="lightbox__stage">
+    <span class="lightbox__imgwrap" id="lbWrap"><img id="lbImg" alt=""></span>
+    <figcaption id="lbCap"></figcaption>
+  </figure>
+  <button class="lightbox__btn lightbox__btn--prev" type="button" data-lb-prev aria-label="上一张">‹</button>
+  <button class="lightbox__btn lightbox__btn--next" type="button" data-lb-next aria-label="下一张">›</button>
+  <button class="lightbox__btn lightbox__btn--close" type="button" data-lb-close aria-label="关闭">✕</button>
+</div>
+
+<!-- ============ Tweaks ============ -->
+<aside class="tweaks" id="tweaks" hidden aria-label="调节面板">
+  <header class="tweaks__head">
+    <span>Tweaks</span>
+    <button type="button" id="tweaksClose" aria-label="关闭调节面板">✕</button>
+  </header>
+  <div class="tweaks__body">
+    <div class="tweaks__group">
+      <label>色调</label>
+      <div class="tweaks__themes">
+        <button type="button" data-theme-set="sand" class="is-active">晨沙</button>
+        <button type="button" data-theme-set="dusk">暮潮</button>
+        <button type="button" data-theme-set="salt">海盐</button>
+      </div>
+    </div>
+    <div class="tweaks__group">
+      <label for="twScale">字号 <span id="twScaleVal">100%</span></label>
+      <input type="range" id="twScale" min="90" max="118" value="100" step="1">
+    </div>
+    <div class="tweaks__group">
+      <label for="twMotion">潮水动效</label>
+      <input type="checkbox" id="twMotion" checked>
+    </div>
+    <div class="tweaks__group">
+      <label for="twRedact">遮挡成绩单个人信息</label>
+      <input type="checkbox" id="twRedact" checked>
+    </div>
+    <button type="button" class="tweaks__reset" id="tweaksReset">恢复默认</button>
+  </div>
+</aside>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
